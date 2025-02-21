@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-menu-fixed layout-compact" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Target Kegiatan</title>
+    <link rel="stylesheet" href="../assets/vendor/css/core.css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+    <script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet">
+      <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
+    <!-- link css targetkegiatan -->
+    <link rel="stylesheet" href="assets/css/Target-kegiatan.css">
+    <!-- Helpers -->
+    <script src="../assets/vendor/js/helpers.js"></script>
+    <script src="../assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <div class="layout-wrapper layout-content-navbar">
+      <div class="layout-container">
+        <!-- Sidebar -->
+        <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+          <div class="app-brand demo">
+            <a href="#" class="app-brand-link d-flex align-items-center">
+              <span class="app-brand-logo">
+                <img src="../assets/img/logo.png" alt="Logo" width="80" height="80" style="border-radius: 8px;" />
+              </span>
+              <span class="app-brand-text menu-text fw-bold ms-2">KANTORKU</span>
+            </a>
+            <a
+            href="javascript:void(0);"
+            class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+            <i class="bx bx-chevron-left bx-sm d-flex align-items-center justify-content-center"></i>
+          </a>
+          </div>
+          <ul class="menu-inner py-1">
+            <li class="menu-item">
+              <a href="index.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-smile"></i>
+                <div>Dashboard</div>
+              </a>
+            </li>
+            <li class="menu-item active">
+              <a href="target-kegiatan.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-layout"></i>
+                <div>Target Kegiatan</div>
+              </a>
+            </li>
+             <!-- Aktivitas -->
+             <li class="menu-item">
+                <a href="aktivitas.html" class="menu-link">
+                  <i class="menu-icon tf-icons bx bx-store"></i>
+                  <div class="text-truncate">Aktivitas</div>
+                </a>
+              </li>
+              <li class="menu-item">
+                <!-- OPD -->
+              <li class="menu-item">
+                <a href="opd.html" class="menu-link">
+                  <i class="menu-icon tf-icons bx bxs-buildings"></i>
+                  <div class="text-truncate">OPD</div>
+                </a>
+              </li>  
+              <!-- Progress -->
+              <li class="menu-item">
+                <a href="progress.html" class="menu-link">
+                  <i class="menu-icon tf-icons bx bx-line-chart"></i>
+                  <div class="text-truncate">Progress</div>
+                </a>
+              </li>  
+              <!-- Kalender -->
+              <li class="menu-item">
+                <a href="kalender.html" class="menu-link">
+                  <i class="menu-icon tf-icons bx bx-calendar"></i>
+                  <div class="text-truncate">Kalender</div>
+                </a>
+              </li>  
+              </li>
+          </ul>
+        </aside>
+       
+        <!-- /Sidebar -->
+
+        <div class="layout-page">
+          <!-- Navbar -->
+          <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached bg-navbar-theme">
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-4 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-6" href="javascript:void(0)">
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+            <div class="navbar-nav-right d-flex align-items-center">
+              <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
+                  <i class="bx bx-search bx-sm"></i>
+                  <input type="text" class="form-control border-0 shadow-none ps-2" placeholder="Search..." />
+                </div>
+              </div>
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle hide-arrow p-0" href="#" data-bs-toggle="dropdown">
+                    <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a class="dropdown-item" href="#">My Profile</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Settings</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Logout</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- /Navbar -->
+          <!-- Content -->
+          <div class="content-wrapper">
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="text-primary mb-4">#Agenda Kegiatan - Target Pekerjaan</h4>
+              <button class="btn btn-primary mb-3" id="addDataBtn" data-bs-toggle="modal" data-bs-target="#addTargetKegiatanModal">
+                + Tambah Data
+              </button>
+              <div class="table-responsive">
+                <table class="table table-submenu table-bordered gn-middle bg" id="dataTable">
+                  <thead class="table-light text-center">
+                    <tr>
+                      <th class="text-center">No</th>
+                      <th class="text-center">Indikator Target</th>
+                      <th class="text-center">Tanggal Mulai</th>
+                      <th class="text-center">Penugasan</th>
+                      <th class="text-center">IKO</th>
+                      <th class="text-center">Penanggung Jawab</th>
+                      <th class="text-center">Nama Kegiatan</th>
+                      <th class="text-center">Tanggal Selesai</th>
+                      <th>Catatan</th>
+                      <th>Status</th>
+                      <th>Aksi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <!-- Data akan ditambahkan secara dinamis -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+<!-- Modal Tambah -->
+<div class="modal fade" id="addTargetKegiatanModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Tambah Target Kegiatan</h5>
+      </div>
+      <div class="modal-body">
+        <form id="addTargetKegiatanForm">
+                <!-- Row 1 -->
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="addJenisTarget" class="form-label">Jenis Target Kegiatan</label>
+                    <input type="text" id="addJenisTarget" class="form-control" placeholder="Indikator IKO" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="addPenugasan" class="form-label">Penugasan</label>
+                    <select id="addPenugasan" class="form-select">
+                      <option value="">Pilih Penugasan</option>
+                      <option value="Dikerjakan Sendiri">Dikerjakan Sendiri</option>
+                      <option value="Tim">Tim</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="addIKO" class="form-label">IKO</label>
+                    <input type="text" id="addIKO" class="form-control" placeholder="Indikator Kinerja Organisasi" />
+                  </div>
+                  <!-- <div class="col-md-6">
+                    <label for="addIKI" class="form-label">IKI</label>
+                    <input type="text" id="addIKI" class="form-control" placeholder="Indikator Kinerja Individu" />
+                  </div> -->
+                </div>
+                <!-- Row 3 -->
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="addTanggalMulai" class="form-label">Tanggal Mulai</label>
+                    <input type="date" id="addTanggalMulai" class="form-control" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="addTanggalSelesai" class="form-label">Tanggal Selesai</label>
+                    <input type="date" id="addTanggalSelesai" class="form-control" />
+                  </div>
+                </div>
+                <!-- Row 4 -->
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="addPenanggungJawab" class="form-label">Penanggung Jawab</label>
+                    <input type="text" id="addPenanggungJawab" class="form-control" placeholder="Nama Penanggung Jawab" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="addNamaKegiatan" class="form-label">Nama Kegiatan</label>
+                    <input type="text" id="addNamaKegiatan" class="form-control" placeholder="Nama Kegiatan" />
+                  </div>
+                </div>
+                <!-- Row 5 -->
+                <div class="row mb-3">
+                  <div class="col-md-12">
+                    <label for="addCatatan" class="form-label">Catatan</label>
+                    <textarea id="addCatatan" class="form-control" rows="3" placeholder="Catatan"></textarea>
+                  </div>
+                </div>
+                <!-- Row 6 -->
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <label for="addWarnaPenanda" class="form-label">Warna Penanda</label>
+                    <input type="color" id="addWarnaPenanda" class="form-control form-control-color" />
+                  </div>
+                  <div class="col-md-6">
+                    <label for="addStatus" class="form-label">Status</label>
+                    <select id="addStatus" class="form-select">
+                      <option value="">Pilih Status</option>
+                      <option value="On Progress">On Progress</option>
+                      <option value="Closed">Closed</option>
+                    </select>
+                  </div>
+                </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <div id="addError" class="text-danger"></div>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+        <button type="button" class="btn btn-primary" id="saveAddDataBtn">Simpan</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Edit -->
+<div class="modal fade" id="editTargetKegiatanModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Edit Target Kegiatan</h5>
+        </div>
+        <div class="modal-body">
+          <form id="editTargetKegiatanForm">
+            <!-- Row 1 -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="editJenisTarget" class="form-label">Jenis Target Kegiatan</label>
+                <input type="text" id="editJenisTarget" class="form-control" placeholder="Indikator IKO" />
+              </div>
+              <div class="col-md-6">
+                <label for="editPenugasan" class="form-label">Penugasan</label>
+                <select id="editPenugasan" class="form-select">
+                  <option value="">Pilih Penugasan</option>
+                  <option value="Dikerjakan Sendiri">Dikerjakan Sendiri</option>
+                  <option value="Tim">Tim</option>
+                </select>
+              </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="editIKO" class="form-label">IKO</label>
+                <input type="text" id="editIKO" class="form-control" placeholder="Indikator Kinerja Organisasi" />
+              </div>
+              <!-- <div class="col-md-6">
+                <label for="editIKI" class="form-label">IKI</label>
+                <input type="text" id="editIKI" class="form-control" placeholder="Indikator Kinerja Individu" />
+              </div> -->
+            </div>
+            <!-- Row 3 -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="editTanggalMulai" class="form-label">Tanggal Mulai</label>
+                <input type="date" id="editTanggalMulai" class="form-control" />
+              </div>
+              <div class="col-md-6">
+                <label for="editTanggalSelesai" class="form-label">Tanggal Selesai</label>
+                <input type="date" id="editTanggalSelesai" class="form-control" />
+              </div>
+            </div>
+            <!-- Row 4 -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="editPenanggungJawab" class="form-label">Penanggung Jawab</label>
+                <input type="text" id="editPenanggungJawab" class="form-control" placeholder="Nama Penanggung Jawab" />
+              </div>
+              <div class="col-md-6">
+                <label for="editNamaKegiatan" class="form-label">Nama Kegiatan</label>
+                <input type="text" id="editNamaKegiatan" class="form-control" placeholder="Nama Kegiatan" />
+              </div>
+            </div>
+            <!-- Row 5 -->
+            <div class="row mb-3">
+              <div class="col-md-12">
+                <label for="editCatatan" class="form-label">Catatan</label>
+                <textarea id="editCatatan" class="form-control" rows="3" placeholder="Catatan"></textarea>
+              </div>
+            </div>
+            <!-- Row 6 -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="editWarnaPenanda" class="form-label">Warna Penanda</label>
+                <input type="color" id="editWarnaPenanda" class="form-control form-control-color" />
+              </div>
+              <div class="col-md-6">
+                <label for="editStatus" class="form-label">Status</label>
+                <select id="editStatus" class="form-select">
+                  <option value="">Pilih Status</option>
+                  <option value="On Progress">On Progress</option>
+                  <option value="Closed">Closed</option>
+                </select>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <div id="editError" class="text-danger"></div>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+          <button type="button" class="btn btn-primary" id="saveEditDataBtn">Simpan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- Modal Delete -->
+<div class="modal fade" id="deleteTargetKegiatanModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Konfirmasi Hapus</h5>
+          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+        <p>Apakah Anda yakin ingin menghapus data ini?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+        <button type="button" class="btn btn-danger" id="deleteDataBtn">Hapus</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/target-kegiatan.js"></script>
+<script src="../assets/js/dashboards-analytics.js"></script>
+<script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../assets/vendor/js/menu.js"></script>
+    <script src="../assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    </div>
+  </body>
+</html>

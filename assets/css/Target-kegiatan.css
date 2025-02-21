@@ -1,0 +1,25 @@
+
+
+/* Tambahkan CSS untuk mengatur background color dan shadow */
+.table-submenu {
+  background-color: white; /* Warna latar belakang untuk sub-menu isi */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow untuk tabel */
+  border-radius: 5px; /* Tambahkan sedikit border-radius untuk keindahan */
+}
+
+.table-submenu th {
+  background-color: #696cff; /* Warna background untuk header tabel */
+  color: #ffffff; /* Warna teks header */
+}
+
+.table-submenu td, .table-submenu th {
+  padding: 10px;
+  text-align: center; /* Atur teks menjadi rata tengah */
+  border: 1px solid white; /* Tambahkan border pada sel */
+}
+
+/* .table-submenu tr:hover {
+  background-color: black 
+} */
+/* Warna saat baris di-hover */
+
