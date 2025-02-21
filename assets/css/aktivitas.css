@@ -1,0 +1,76 @@
+/* BODY & HEADER */
+body {
+    background-color: #F8F9FC;
+    font-size: 14px;
+}
+
+/* CARD & TABLE */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #EDEAFF;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #6A5ACD;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    color: #333;
+}
+
+.table img {
+    width: 50px;
+    height: auto;
+}
+
+/* MODAL */
+.modal-header {
+    background-color: #6A5ACD;
+    color: white;
+}
+
+.modal-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ccc;
+}
+
+/* BUTTON & INPUT */
+.btn-primary {
+    background-color: #6A5ACD;
+    border-color: #6A5ACD;
+}
+
+.btn-primary:hover {
+    background-color: #5A4EBE;
+    border-color: #5A4EBE;
+}
+
+.form-control, .form-select {
+    border: 1px solid #a0a0a0;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #6A5ACD;
+    box-shadow: 0 0 5px rgba(105, 90, 205, 0.5);
+}
+
+/* SEARCH BOX */
+.search-box {
+    max-width: 250px;
+    float: right;
+    font-size: 12px;
+    padding: 4px;
+    border: 1px solid #a0a0a0;
+}
+
+/* IMAGE PREVIEW */
+#imagePreview {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin-top: 10px;
+}
